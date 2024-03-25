@@ -1,7 +1,7 @@
 /* Import local font - Nexa Sans serif*/
 @font-face {
   font-family: "Nexa";
-  src: url("../../fonts/Nexa Light.otf") format("truetype");
+  src: url("../fonts/NexaLight.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Import local font - Nexa Sans serif*/
 @font-face {
   font-family: "NexaBold";
-  src: url("../../fonts/Nexa Bold.otf") format("truetype");
+  src: url("../fonts/NexaBold.otf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }

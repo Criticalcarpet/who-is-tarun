@@ -10,7 +10,7 @@ anime
     endDelay: 400,
     easing: "linear",
   })
-  /*.add({
+  .add({
     scale: 1,
     opacity: [0, 1],
   })
@@ -24,7 +24,7 @@ anime
       },
     },
     "+=1000"
-  )*/
+  )
   .add(
     {
       opacity: [0, 1],
