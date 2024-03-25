@@ -1,0 +1,45 @@
+/* Import local font - Nexa Sans serif*/
+@font-face {
+  font-family: "Nexa";
+  src: url("../../fonts/Nexa Light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Import local font - Nexa Sans serif*/
+@font-face {
+  font-family: "NexaBold";
+  src: url("../../fonts/Nexa Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "NexaBold";
+  background-color: #f5f5f5;
+  font-size: clamp(
+    22px,
+    calc(22px + (48 - 22) * (100vw - 768px) / (1920 - 768)),
+    48px
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+  text-align: center;
+  color: red;
+  width: 100vw;
+  font-family: "NexaBold";
+  opacity: 0;
+}
